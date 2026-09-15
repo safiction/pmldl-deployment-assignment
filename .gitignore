@@ -1,0 +1,26 @@
+# Data (downloaded by code/datasets/load_data.py)
+data/raw/
+data/processed/
+
+# Models (produced by the training stage)
+models/*.pkl
+models/*.joblib
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Airflow
+services/airflow/logs/
+*.db
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
