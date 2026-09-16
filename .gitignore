@@ -10,8 +10,16 @@ models/*.joblib
 mlruns/
 mlartifacts/
 
-# Airflow
+# Airflow (generated at runtime)
+services/airflow/airflow.cfg
+services/airflow/webserver_config.py
 services/airflow/logs/
+services/airflow/standalone_admin_password.txt
+services/airflow/simple_auth_manager_passwords.json.generated
+services/airflow/*.pid
+services/airflow/airflow.db*
+services/airflow_standalone.log
+services/airflow_venv/
 *.db
 
 # Python

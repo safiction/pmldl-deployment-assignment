@@ -1,0 +1,5 @@
+# Airflow does not run natively on Windows.
+# Install this into a venv under WSL2 / Linux, not the Windows Python env
+# used for requirements.txt at the repo root.
+-r ../../requirements.txt
+apache-airflow==3.3.1
